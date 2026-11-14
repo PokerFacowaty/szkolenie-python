@@ -1,0 +1,8 @@
+severity=LOG action=login ip=80.90.100.110 user=alice
+severity=DEBUG action=login ip=172.16.254.5 user=bob
+severity=INFO action=failed_login ip=55.44.33.22 user=admin
+severity=WARN action=logout ip=123.45.67.89 user=test
+severity=ERROR action=login ip=8.8.8.8 user=system
+severity=WARN action=failed_login ip=45.33.32.156 user=api Problem!
+severity=ERROR action=logout ip=69.63.176.13 user=data
+severity=DEBUG action=login ip=216.58.214.14 user=svc_acct
